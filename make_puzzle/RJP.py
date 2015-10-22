@@ -8,7 +8,7 @@ class puzzle_improve:
         old_puzzle = original_puzzle
 
         #print(old_answer)
-        #Test this stuff
+
         new_puzzle = old_puzzle
         old_answer = puzzle_evaluate.bfs_path(new_puzzle, size)
 
